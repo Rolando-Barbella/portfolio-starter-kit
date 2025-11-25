@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  icons: {
+    icon: '/favicon.png',     // or '/favicon.svg'
+    apple: '/apple-touch-icon.png',
+  },
   robots: {
     index: true,
     follow: true,
