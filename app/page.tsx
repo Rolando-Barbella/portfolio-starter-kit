@@ -26,6 +26,9 @@ export default function Page() {
         {`I'm a software engineer who likes building interesting things. Last few years the foucus has been more on mobile apps ( IOS and Android).
          Apart from my 9-5 job, I work on side projects while learning new things, which you can see in this site.`}
       </p>
+      <p className="mb-2">
+        {`My stacks are: React Native, Expo, Subpase, Tailwind CSS, TypeScript, etc, and yes, loads of vibe coding, LLMs development.`}
+      </p>
       {/* <div className="my-8">
         <BlogPosts />
       </div> */}
