@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import Link from 'next/link'
+import oportunidadesiaIcon from '../img/oportunidadesia.png'
 
 interface Project {
   title: string
@@ -9,6 +11,19 @@ interface Project {
 }
 
 const projects: Project[] = [
+  {
+    title: 'Oportunidades IA',
+    description: 'AI job opportunities platform for Spanish-speaking professionals',
+    metrics: [],
+    link: 'https://oportunidadesia.com/',
+    icon: (
+      <Image
+        src={oportunidadesiaIcon}
+        alt="Oportunidades IA"
+        className="w-10 h-10 rounded-lg object-cover"
+      />
+    ),
+  },
   {
     title: 'Keep your promises',
     description: 'Avoid procrastination, achive your life goals ',
@@ -83,4 +98,3 @@ export function Projects() {
     </div>
   )
 }
-
