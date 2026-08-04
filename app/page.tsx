@@ -23,11 +23,10 @@ export default function Page() {
         </div>
       </div>
       <p className="mb-2">
-        {`I'm a software engineer who likes building interesting things. Last few years the foucus has been more on mobile apps ( IOS and Android).
-         Apart from my 9-5 job, I work on side projects while learning new things, which you can see in this site.`}
+        {`A driven developer who gets thrilled by creating great, pleasing solutions that deliver user-friendly. Last few years the focus has been more on mobile apps ( IOS and Android), mainly using Expo and React Native, I have been involve in more than 5 apps published in the Apple Store and Google Play`}
       </p>
       <p className="mb-2">
-        {`My stacks are: React Native, Expo, Subpase, Tailwind CSS, TypeScript, etc, and yes, loads of vibe coding, LLMs development.`}
+        {`Apart from my 9-5 job, I work on side projects that keep constantly learning and adapting. My LLC workflow at the moment is done my running agents in Codex and Hermes`}
       </p>
       {/* <div className="my-8">
         <BlogPosts />
