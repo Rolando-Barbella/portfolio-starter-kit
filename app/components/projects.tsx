@@ -63,6 +63,10 @@ const techInterests = [
     link: 'https://github.com/wonderwhy-er/DesktopCommanderMCP',
   },
   {
+    title: 'Expo',
+    link: 'https://expo.dev/',
+  },
+  {
     title: 'Hermes Agent',
     link: 'https://github.com/nousresearch/hermes-agent',
   },
@@ -77,10 +81,6 @@ const techInterests = [
   {
     title: 'Pi',
     link: 'https://github.com/badlogic/pi-mono',
-  },
-  {
-    title: 'GitNexus',
-    link: 'https://github.com/abhigyanpatwari/GitNexus',
   },
   {
     title: 'SuperPowers',
