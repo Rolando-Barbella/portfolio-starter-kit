@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <section>
       <div className="mb-6 flex flex-col items-start gap-4">
-        <div className="ml-[5px] aspect-square h-24 w-24 shrink-0 overflow-hidden rounded-full bg-neutral-100 shadow-[-5px_5px_0_#47a3f3] dark:bg-neutral-900">
+        <div className="ml-[5px] aspect-square h-24 w-24 shrink-0 overflow-hidden rounded-full bg-neutral-100 shadow-[-5px_5px_0_#ffffff] dark:bg-neutral-900">
           <Image
             src={profilePic}
             alt="Rolando Barbella"
