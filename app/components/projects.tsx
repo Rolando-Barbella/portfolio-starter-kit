@@ -5,6 +5,7 @@ import oportunidadesiaIcon from '../img/oportunidadesia.png'
 interface Project {
   title: string
   description: string
+  technologies?: string[]
   metrics: string[]
   link: string
   icon: string | React.ReactNode
@@ -13,7 +14,15 @@ interface Project {
 const projects: Project[] = [
   {
     title: 'Keep your promises',
-    description: 'Avoid procrastination, achive your life goals ',
+    description:
+      'Designed, built and shipped an accountability app for iOS and Android. Implemented authentication, subscriptions, notifications and production deployment using Expo and React Native.',
+    technologies: [
+      'Expo',
+      'TypeScript',
+      'Supabase',
+      'Subscriptions',
+      'Push notifications',
+    ],
     metrics: ['$29 Lifetime Revenue'],
     link: 'https://www.kypromises.com/',
     icon: (
@@ -114,6 +123,21 @@ export function Projects() {
                 <span className="text-neutral-900 dark:text-neutral-100 mt-1">
                   {project.description}
                 </span>
+                {project.technologies && (
+                  <ul
+                    className="mt-3 flex flex-wrap gap-2"
+                    aria-label={`${project.title} technologies`}
+                  >
+                    {project.technologies.map((technology) => (
+                      <li
+                        key={technology}
+                        className="rounded-full bg-neutral-100 px-2.5 py-1 text-xs text-neutral-700 dark:bg-neutral-800 dark:text-neutral-300"
+                      >
+                        {technology}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
               
               {/* Metrics */}
