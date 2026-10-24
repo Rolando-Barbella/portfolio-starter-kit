@@ -86,29 +86,29 @@ const projects: Project[] = [
 
 const techInterests = [
   {
-    title: 'Desktop Commander MCP',
-    link: 'https://github.com/wonderwhy-er/DesktopCommanderMCP',
-  },
-  {
     title: 'Expo',
     link: 'https://expo.dev/',
+  },
+  {
+    title: 'Desktop Commander MCP',
+    link: 'https://github.com/wonderwhy-er/DesktopCommanderMCP',
   },
   {
     title: 'Hermes Agent',
     link: 'https://github.com/nousresearch/hermes-agent',
   },
-  {
-    title: 'Plano',
-    link: 'https://github.com/katanemo/plano',
-  },
+  // {
+  //   title: 'Plano',
+  //   link: 'https://github.com/katanemo/plano',
+  // },
   {
     title: 'Scrapling',
     link: 'https://github.com/D4Vinci/Scrapling',
   },
-  {
-    title: 'Pi',
-    link: 'https://github.com/badlogic/pi-mono',
-  },
+  // {
+  //   title: 'Pi',
+  //   link: 'https://github.com/badlogic/pi-mono',
+  // },
   {
     title: 'SuperPowers',
     link: 'https://github.com/obra/superpowers',
